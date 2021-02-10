@@ -1,17 +1,17 @@
 {
-  "name": "deployment",
+  "name": "environment",
   "version": "1.0.0",
-  "description": "This is a sample lambda function (Node.js implementation) that when coupled with AWS API Gateway, could help to transform SOAP service calls into REST APIs. The SOAP service used for this sample is available @ http://www.dneonline.com/calculator.asmx?wsdl",
-  "main": "lambda_rest2soap.js",
+  "description": "<!-- GETTING STARTED --> ## Getting Started",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "adrin.mukherjee@gmail.com",
+  "author": "",
   "license": "ISC",
   "dependencies": {
-    "soap": "^0.32.0"
+    "soap": "^0.36.0"
   },
+  "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/alexsalvo1/lambda_rest2soap.git"
