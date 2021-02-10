@@ -3,8 +3,8 @@ const SERVICE_WSDL = process.env.SERVICE_WSDL || "http://www.dneonline.com/calcu
 
 const transformRequest = async(event)=>{
     let targetRequest = {};
-    targetRequest.intA = event.a; 
-    targetRequest.intB = event.b;
+    targetRequest.intA = event.queryStringParameters.a; 
+    targetRequest.intB = event.queryStringParameters.b;
     return targetRequest;
 };
 
