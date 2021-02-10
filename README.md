@@ -29,6 +29,7 @@ The SOAP service used for this sample is available @ http://www.dneonline.com/ca
 3. Test container on previous terminal
     ```sh
     curl -XPOST "http://localhost:9000/2015-03-31/functions/function/invocations" -d '{"queryStringParameters":{"a":10,"b":20}}'
+    curl -XPOST "http://localhost:9000/2015-03-31/functions/function/invocations" -d '{"params":{"querystring":{"a":10,"b":20}}}'
     ```
 4. Create my ECR repository
     ```sh
